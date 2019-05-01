@@ -1,0 +1,3 @@
+a = "Lighthouse in the house"
+a = a.join(" ");
+console.log(a);

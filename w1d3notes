@@ -1,0 +1,71 @@
+repo.it\\
+primitive data types are **Immutable**
+can't change string by [0] .. [1] .. etc.
+
+var movie = {
+  title: "Avengers",
+  year: 2019,
+  director: 'Anthony Russo'
+}
+
+
+// dot notation
+console.log(movie.title)
+
+// bracket notation
+console.log(movie['year'])
+
+var movie ={}
+
+movie.title = 'THe Lord of the Rings'
+//replace
+movie.title = 'Avengers'
+
+// object can only one key with the same name
+
+
+//iterating
+
+var keys = object.keys(movie)
+
+for (var i=0; 1 < keys.length; i++) {
+  keys[i]
+}
+
+var names = Object.values(movie)
+ console.log(mvoie[keys[i]])
+
+
+//for in loop
+
+for (var moviekey in movie) {
+  console.log(movie[moviekey])
+}
+
+//gives us the value (above)
+
+
+movie.hasOwnProperty('year')
+=> false
+
+words ==array
+var xPos ={}
+
+words.forEach(function(el, i){
+  console.log(el[])
+  xPos[el]= el.indexOf('x') //use bracket if there's an variable
+}
+ console.log(xPos);
+})
+
+var robot ={}
+
+var say = function() {
+console.log(this, this.name + this.sound);
+}.bind(robot);
+
+
+console.log(say.call(robot));
+
+
+
